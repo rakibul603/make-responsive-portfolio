@@ -291,31 +291,50 @@ footer .footer-container {
 
 @media screen and (max-width: 576px) {
     .container {
-        width: 90%;
+        width: 95%;
     }
 
     .section-heading h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 
     #about,
     #skills,
     #resume {
         padding-top: 60px;
     }
+
     #about .about-container .about-info {
         gap: 40px;
     }
 
-    #skills .skills-container .skill-box,  #about .about-container .about-info {
+    #skills .skills-container .skill-box,
+    #about .about-container .about-info,
+    footer .footer-container, #resume .resume-container {
         flex-direction: column;
     }
+
     .skill-box .skill-card {
-       max-width: 95%;
+        max-width: 95%;
     }
+
+     #resume .resume-container {
+        margin-top: 60px;
+     }
+
+     .resume-card {
+        margin-right: 10px;
+     }
 
     #about .about-container {
         padding: 20px;
     }
+
+    .footer-container form input[type="text"],
+    .footer-container form textarea {
+        width: 100%;
+    }
+
+
 }
