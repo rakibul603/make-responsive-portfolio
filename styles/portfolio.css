@@ -299,6 +299,15 @@ footer .footer-container {
         margin-bottom: 10px;
     }
 
+    nav {
+        gap: 20px;
+    }
+
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #about,
     #skills,
     #resume {
@@ -311,7 +320,7 @@ footer .footer-container {
 
     #skills .skills-container .skill-box,
     #about .about-container .about-info,
-    footer .footer-container, #resume .resume-container {
+    footer .footer-container, #resume .resume-container, nav {
         flex-direction: column;
     }
 
